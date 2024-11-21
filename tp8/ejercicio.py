@@ -3,12 +3,14 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+
 st.set_page_config(layout="wide", page_title="Análisis de Ventas", page_icon=":bar_chart:")
 
 st.markdown(
     """
     <style>
-    .stApp {
+    .stApp, .stAppHeader{
         background-color: white;
     }
     .stApp, .stApp p, .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5, .stApp h6 {
